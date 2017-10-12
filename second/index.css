@@ -1,0 +1,80 @@
+html, body{
+  height: 100%;
+  padding, margin: 0;
+}
+
+#box1, #box2, #box3{
+  margin: 25px;
+}
+
+#box1{
+  height: 20%;
+  width: auto;
+  border-style: solid;
+  border-width: 5px;
+  padding:10px;
+}
+
+#purple, #green, #blue{
+  align-items: center;
+  margin-right: 50px;
+}
+
+#purple{
+  height: 150px;
+  width: 50px;
+  background: rgb(143,0,232);
+  margin-left: 5px;
+  display: inline-block;
+}
+
+#green{
+  height: 200px;
+  width: 400px;
+  background: rgb(0,132,0);
+  display: inline-block;
+}
+
+#blue{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: rgb(104,201,236);
+  display: inline-block;
+}
+
+#box2{
+  height: 30%;
+  width: auto;
+  border-style: dotted;
+  border-width: 5px;
+  padding: 5px;
+}
+
+#yellow{
+  height: 70%;
+  width: 95%;
+  background: rgb(255,250,192);
+  box-shadow: 10px 10px 5px rgb(56,56,56);
+  margin: auto;
+  margin-top: 50px;
+  padding: 0;
+}
+
+#box3{
+  height: 25%;
+  width: 50%;
+  margin: auto;
+  color: rgb(19,0,122);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(197,197,197);
+  box-shadow: 5px 5px 5px rgb(212,212,212);
+}
+
+#box3 h1{
+  text-align: center;
+  letter-spacing: 10px;
+  margin: auto;
+  padding-top: 10%;
+}

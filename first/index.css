@@ -1,0 +1,26 @@
+html, body{
+  height: 100%;
+  padding:0;
+  margin:0;
+  background: rgb(211,210,211);
+}
+
+header{
+  background: rgb(60,60,60);
+  height:20%;
+  width: auto;
+}
+
+.container{
+  background: rgb(237,236,237);
+  height: 100%;
+  width: 75%;
+  margin: auto;
+}
+
+footer{
+  background: rgb(31,31,31);
+  height: 15%;
+  width: 75%;
+  margin: auto;
+}
